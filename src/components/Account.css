@@ -1,0 +1,111 @@
+/* Account.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: #8353d5;
+  }
+  
+  .account-card {
+    background:linear-gradient(90deg, #e98686, #e8d2d2) !important;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    width: 400px;
+    max-width: 100%;
+  }
+  
+  .account-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .account-field {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .account-field label {
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    width: 100px;
+  }
+  
+  .account-field p {
+    font-size: 16px;
+    color: black;
+    margin: 0;
+  }
+  
+  .account-field input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .account-buttons {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .edit-button,
+  .save-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover,
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading-screen,
+  .no-data {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .account-card {
+      padding: 20px;
+    }
+  
+    .account-field label {
+      font-size: 14px;
+    }
+  
+    .account-field input {
+      padding: 8px;
+    }
+  
+    .edit-button,
+    .save-button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  

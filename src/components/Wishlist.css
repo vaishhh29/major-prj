@@ -1,0 +1,104 @@
+/* src/components/Wishlist.css */
+.wishlist-container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1200px; /* Increased max width for better layout */
+    margin: 20px auto; /* Center container */
+    margin-top: 80px;
+   background-color: rgb(129, 118, 118);
+  }
+  
+  .wishlist-title {
+    font-size: 30px;
+    color: #faf7f7 !important; /* Darker color for contrast */
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold; /* Bold title */
+    text-transform: uppercase; /* Uppercase title */
+    margin-top: -5px !important;
+  }
+  
+  .wishlist-grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 15px; /* Space between items */
+  }
+  
+  .wishlist-item {
+    background-color: #ffffff; /* White background for items */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Vertical alignment */
+    align-items: center; /* Center items */
+    margin-right: 10px;
+  }
+  
+  .wishlist-item-image-container {
+    width: 100%; /* Full width for image container */
+    height: 250px; /* Fixed height for images */
+    overflow: hidden; /* Hide overflow */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .wishlist-item-image {
+    width: 100%; /* Full width within the container */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .wishlist-item-details {
+    text-align: center; /* Center text */
+  }
+  .wishlist-item:hover {
+    transform: scale(1.05);
+}
+  .dress-name {
+    margin: 10px 0;
+    font-size: 18px; /* Slightly larger font size for dress name */
+    color: #2c3e50; /* Darker color for better readability */
+  }
+  
+  .dress-info {
+    margin: 5px 0;
+    font-size: 14px; /* Font size for other details */
+    color: #7f8c8d; /* Gray color for less emphasis */
+  }
+  
+  .button-container {
+    margin-top: 10px; /* Space above the button */
+  }
+  
+  .remove-button {
+    background-color: #e74c3c; /* Red color */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .remove-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  .checkout-button {
+    background-color: #3498db; /* Blue color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0; /* Center button */
+    font-size: 16px; /* Larger font size for better visibility */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .checkout-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  

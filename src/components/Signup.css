@@ -1,0 +1,116 @@
+/* src/components/Signup.css */
+
+body {
+  background-color: white;
+  margin: 0 !important;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../images/c274ded2-9442-4030-af8e-58fdc64eb3e5.jpeg'); /* Replace with your image path */
+  background-size: cover; /* Changed from 100% to cover for better image handling */
+  background-position: center; /* Center the background image */
+  
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px; /* Maximum width for larger screens */
+  background:linear-gradient(350deg, #c6c0c0, #ffffff);/* White background */
+  padding: 30px;
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  margin-bottom: 20px;
+  margin-right: 110px;
+  margin-top:10px
+}
+
+.signup-form h2 {
+  color: #e6eaee; /* Dark slate for heading */
+  margin-bottom: 20px; /* Space below the heading */
+  text-align: center; /* Center the heading */
+  font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+.signup-form input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #cccccc; /* Light gray border */
+  border-radius: 5px;
+  font-size: 16px; /* Slightly larger font size */
+}
+
+.signup-form .two-inputs {
+  display: flex; /* Flexbox for two inputs in a row */
+  justify-content: space-between;
+}
+
+.signup-form .input-group {
+  flex: 1; /* Equal width for input groups */
+  margin-right: 10px; /* Right margin for spacing */
+}
+
+.signup-form .input-group:last-child {
+  margin-right: 0; /* No margin on the last input */
+}
+
+.signup-form button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Match font size */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.signup-form button:hover {
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.signup-form button {
+  background-color: #0056b3; /* Deep blue */
+  color: white; /* White text */
+}
+
+.signup-form button.google-signup {
+  margin-top: 10px;
+  background-color: #db4437; /* Bright red for Google sign up */
+}
+
+.signup-form button.signup-link {
+  background-color: #28a745; /* Soft green for link */
+}
+
+.error {
+  color: #e74c3c; /* Bright red for error messages */
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center; /* Center error messages */
+}
+
+p {
+  text-align: center; /* Center the paragraph */
+  color: #0d0d0e !important; /* Dark slate */
+  margin-top: 10px; /* Space above the paragraph */
+}
+
+.login-link {
+  color: #00c3f9; /* Deep blue for the login link */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text */
+}
+
+.login-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+h2{
+  color:whitesmoke !important;
+  margin-right: 250px;
+ 
+}

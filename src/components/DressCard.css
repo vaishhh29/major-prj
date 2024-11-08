@@ -1,0 +1,31 @@
+.dress-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dress-image {
+  width: 100%;
+  height: auto;
+}
+
+.dress-details {
+  text-align: center;
+}
+
+.order-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wishlist-button {
+  margin-top: 10px;
+}
+
+.close-button {
+  margin-top: 10px;
+}

@@ -1,0 +1,65 @@
+.App {
+    font-family: sans-serif;
+    text-align: left;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin-top: 90px !important;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height:auto;
+    margin-bottom: 50px;
+  }
+  
+  h3 {
+    margin-bottom: 20px;
+    margin-top: 15px !important;
+  }
+  
+  .payment-options {
+    margin-bottom: 20px;
+  }
+  
+  .credit-card-section {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .rccs__card {
+    height: 182.873px;
+    margin: 10px auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.4s linear;
+    width: 290px;
+  }
+  
+  .rccs__card--unknown > div {
+    background-image: url('../images/6.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  form {
+    margin-top: 30px;
+  }
+  
+  input.form-control {
+    margin-bottom: 15px;
+  }
+  
+  .row {
+    margin-bottom: 15px;
+  }
+  .text-center button {
+    margin-top: 10px;
+    width: 150px;
+    background-color: rgb(47, 99, 211); /* Make button full width */
+  }
+  .text-center button :hover{
+      background-color: rgb(117, 206, 241);
+  }
+  
